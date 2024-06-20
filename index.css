@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    user-select: none;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+}
+
+h1{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+textarea{
+    padding: 10px;
+    width: 317px;
+    height: 118px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #444059;
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 165px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #444059;
+    color: #8F8F8F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    outline: none;
+    border: none;
+}
+
+button{
+    margin-top: 0;
+    width: 340px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #28A9F1;
+    color: #04131C;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+h2{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 30px 0; 
+}
+p{
+    max-width: 400px;
+    font-family: Inter;
+    margin: auto;
+    display: block;
+    text-align: left;
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow: hidden; 
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; 
+    cursor: pointer;
+}
